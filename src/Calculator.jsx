@@ -31,29 +31,29 @@ const Calculator = () => {
           <h1 className="flex justify-center items-center pt-2 pb-2">
             Calculator
           </h1>
-          <div className="bg-gray-600 p-4 ">
+          <div className="bg-gray-200 p-4 ">
             <div className="grid grid-cols-4 md:grid-cols-4 gap-4">
               <input type="text" 
               value={displayValue} 
               readOnly
               class="input input-bordered input-info w-full max-w-xs col-span-4 md:col-span-4 p-2 text-right" 
               />
-              <button onClick={ () => handleClick('7')} className="col-span-1 bg-gray-200 p-2">7</button>
-              <button onClick={() => handleClick('8')} className="col-span-1 bg-gray-200 p-2">8</button>
-              <button onClick={() => handleClick('9')} className="col-span-1 bg-gray-200 p-2">9</button>
-              <button onClick={() => handleClick('+')} className="col-span-1 bg-gray-200 p-2">+</button>
-              <button onClick={() => handleClick('4')} className="col-span-1 bg-gray-200 p-2">4</button>
-              <button onClick={() => handleClick('5')} className="col-span-1 bg-gray-200 p-2">5</button>
-              <button onClick={() => handleClick('6')} className="col-span-1 bg-gray-200 p-2">6</button>
-              <button onClick={() => handleClick('-')} className="col-span-1 bg-gray-200 p-2">-</button>
-              <button onClick={() => handleClick('1')} className="col-span-1 bg-gray-200 p-2">1</button>
-              <button onClick={() => handleClick('2')} className="col-span-1 bg-gray-200 p-2">2</button>
-              <button onClick={() => handleClick('3')} className="col-span-1 bg-gray-200 p-2">3</button>
-              <button onClick={() => handleClick('*')} className="col-span-1 bg-gray-200 p-2">*</button>
-              <button onClick={() => handleClick('0')} className="col-span-1 bg-gray-200 p-2">0</button>
-              <button onClick={() => handleClick('.')} className="col-span-1 bg-gray-200 p-2">.</button>
-              <button onClick={handleClear} className="col-span-1 bg-gray-200 p-2">C</button>
-              <button onClick={() => handleClick('/')} className="col-span-1 bg-gray-200 p-2">/</button>
+              <button onClick={ () => handleClick('7')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">7</button>
+              <button onClick={() => handleClick('8')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">8</button>
+              <button onClick={() => handleClick('9')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">9</button>
+              <button onClick={() => handleClick('+')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">+</button>
+              <button onClick={() => handleClick('4')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">4</button>
+              <button onClick={() => handleClick('5')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">5</button>
+              <button onClick={() => handleClick('6')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">6</button>
+              <button onClick={() => handleClick('-')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">-</button>
+              <button onClick={() => handleClick('1')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">1</button>
+              <button onClick={() => handleClick('2')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">2</button>
+              <button onClick={() => handleClick('3')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">3</button>
+              <button onClick={() => handleClick('*')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">*</button>
+              <button onClick={() => handleClick('0')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">0</button>
+              <button onClick={() => handleClick('.')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">.</button>
+              <button onClick={handleClear} className="btn btn-ghost col-span-1 bg-gray-200 p-2">C</button>
+              <button onClick={() => handleClick('/')} className="btn btn-ghost col-span-1 bg-gray-200 p-2">/</button>
               <button onClick={calculateResult} className="col-span-4 md:col-span-4 bg-blue-500 text-white p-2">
                 Calculate
               </button>
