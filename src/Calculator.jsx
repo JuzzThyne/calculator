@@ -33,11 +33,10 @@ const Calculator = () => {
           </h1>
           <div className="bg-gray-600 p-4 ">
             <div className="grid grid-cols-4 md:grid-cols-4 gap-4">
-              <input
-                type="text"
-                value={displayValue} 
-                readOnly
-                className="col-span-4 md:col-span-4 bg-white border border-gray-300 p-2 text-right"
+              <input type="text" 
+              value={displayValue} 
+              readOnly
+              class="input input-bordered input-info w-full max-w-xs col-span-4 md:col-span-4 p-2 text-right" 
               />
               <button onClick={ () => handleClick('7')} className="col-span-1 bg-gray-200 p-2">7</button>
               <button onClick={() => handleClick('8')} className="col-span-1 bg-gray-200 p-2">8</button>
